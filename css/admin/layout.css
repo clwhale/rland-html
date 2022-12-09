@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.header{
+    background-color: yellow;
+}
+
+.body{
+    background-color: gray;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside{
+    background-color: green;
+}
+
+.main{
+    background-color: white;
+
+    flex-grow: 1;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.619);
+}
+
+
+/* -------------------------------------- */
+
+@media (min-width: 300px){ 
+    .body{
+        flex-direction: row;
+    } 
+}

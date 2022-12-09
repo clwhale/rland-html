@@ -1,0 +1,19 @@
+/* 이 파일은 html 태그가 가지고 있는 기본 스타일을 제거하기 위한 파일입니다. */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body h1, h2, ul, li{
+    margin:0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration-line: none;
+}

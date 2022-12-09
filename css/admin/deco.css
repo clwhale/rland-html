@@ -1,0 +1,45 @@
+.deco{
+    display: inline-flex;
+    align-items: center;
+
+    transition: 3s;
+}
+
+.deco:hover{
+    background-color: black;
+    color: white;
+}
+
+.deco::before{
+    content: '';
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+
+    /* background-color: aquamarine; */
+    -webkit-mask-size: 16px 16px;
+
+    transition: 1s;
+}
+
+.deco:hover::before{
+    background-color: yellow;
+}
+
+.deco-note::before{
+    -webkit-mask-image: url(../../image/note.svg);
+}
+
+.deco-category::before{
+    -webkit-mask-image: url(../../image/category.svg);
+}
+
+/* ========dec utils===================== */
+
+.deco-blue::before{
+    background-color: blue;
+}
+
+.deco-red::before{
+    background-color: red;
+}

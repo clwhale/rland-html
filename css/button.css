@@ -1,0 +1,44 @@
+.btn{
+    /* 모든 버튼의 공통 스타일 */
+    padding: .4em .8em;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+
+    transition: background-color .5s;
+}
+
+.btn-default{
+    border-radius: 20px;
+    border: 1px solid #a24f17;
+
+}
+
+.btn-default-fill{
+    background-color: #a24f17;
+}
+
+.btn-default-line{
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-cancel{
+    border-radius: 20px;
+    border: 1px solid #a24f17;
+    background-color: #fff;
+    color: #000;
+}
+
+/* =========================== */
+
+.btn-size-1{
+    width: 80px;
+}
+
+@media (min-width: 768px){
+    .btn-default{
+        border-radius: 0px;
+        font-size: 17px;
+    }
+}
