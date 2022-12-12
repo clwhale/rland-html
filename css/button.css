@@ -14,6 +14,9 @@
 .btn-old{
     /* 오래된 버튼 스타일 */
 }
+.btn-newlecture{
+    /* newlecture 버튼 스타일 */
+}
 
 .btn-default{
     border-radius: 20px;
