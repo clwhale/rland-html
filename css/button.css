@@ -11,6 +11,9 @@
 .btn-new{
     /* 새로운 버튼 스타일 */
 }
+.btn-old{
+    /* 오래된 버튼 스타일 */
+}
 
 .btn-default{
     border-radius: 20px;
