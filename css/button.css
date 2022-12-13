@@ -8,6 +8,16 @@
     transition: background-color .5s;
 }
 
+.btn-new{
+    /* 새로운 버튼 스타일 */
+}
+.btn-old{
+    /* 오래된 버튼 스타일 */
+}
+.btn-orange{
+    /* 오렌지 버튼 스타일 */
+}
+
 .btn-default{
     border-radius: 20px;
     border: 1px solid #a24f17;
